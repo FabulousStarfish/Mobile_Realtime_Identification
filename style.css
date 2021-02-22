@@ -1,0 +1,43 @@
+#heading{
+    background-color: #60bbce;
+    color: white;
+    font-size: 25px;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+#paragraph{
+    background-color: #60bbce;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: none;
+}
+body{
+    text-align: center;
+    background-image: url("background.png");
+    background-size: cover;
+}
+.answer{
+    background-color: #60bbce;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    float:none;
+    padding: 7.5px;
+    margin-top: 375px;
+}
+canvas{
+    animation-name: Glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Glow{
+    0%{box-shadow:1px 1px 40px #d6efcf};
+    25%{box-shadow:1px 1px 40px #a6dcc2};
+    37.5%{box-shadow:1px 1px 40px #82c7c1};
+    50%{box-shadow:1px 1px 40px #449bc1}; 
+    62.5%{box-shadow:1px 1px 40px #227db7};  
+    75%{box-shadow:1px 1px 40px #5e83ac};   
+    100%{box-shadow:1px 1px 40px #6073a1}; 
+}
